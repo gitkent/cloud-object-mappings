@@ -1,0 +1,64 @@
+{
+  "clouds": [
+    {
+      "Amazon": {
+        "name": "Amazon Web Services",
+        "shortName": "AWS",
+        "compute": [
+          {
+            "virtualServers": {
+              "name": "Elastic Compute Cloud Instances",
+              "shortName": "EC2"
+            }
+          },
+          {
+            "containers": {
+              "name": "Elastic Kubernetes Service",
+              "shortName": "EKS"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Google": {
+        "name": "Google Cloud Platform",
+        "shortName": "GCP",
+        "compute": [
+          {
+            "virtualServers": {
+              "name": "Compute Engine",
+              "shortName": "Compute Engine"
+            }
+          },
+          {
+            "containers": {
+              "name": "Google Kubernetes Engine",
+              "shortName": "GKE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Microsoft": {
+        "name": "Azure",
+        "shortName": "Azure",
+        "compute": [
+          {
+            "virtualServers": {
+              "name": "Azure Virtual Machines",
+              "shortName": "Azure Virtual Machines"
+            }
+          },
+          {
+            "containers": {
+              "name": "Azure Kubernetes Service",
+              "shortName": "AKS"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
