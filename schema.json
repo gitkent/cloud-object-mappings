@@ -1,0 +1,239 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "clouds": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Amazon": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "shortName": {
+                  "type": "string"
+                },
+                "compute": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "virtualServers": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "shortName": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "shortName"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "virtualServers"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "containers": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "shortName": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "shortName"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "containers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "shortName",
+                "compute"
+              ]
+            }
+          },
+          "required": [
+            "Amazon"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Google": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "shortName": {
+                  "type": "string"
+                },
+                "compute": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "virtualServers": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "shortName": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "shortName"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "virtualServers"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "containers": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "shortName": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "shortName"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "containers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "shortName",
+                "compute"
+              ]
+            }
+          },
+          "required": [
+            "Google"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Microsoft": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "shortName": {
+                  "type": "string"
+                },
+                "compute": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "virtualServers": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "shortName": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "shortName"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "virtualServers"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "containers": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "shortName": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "shortName"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "containers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "shortName",
+                "compute"
+              ]
+            }
+          },
+          "required": [
+            "Microsoft"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "clouds"
+  ]
+}

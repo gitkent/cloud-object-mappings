@@ -13,4 +13,5 @@ As of now, to query the shortName of AWS containers orchestration service:
 ```
 
 # References:
-https://dzone.com/articles/azure-aws-and-gcp-a-multicloud-service-cheat-sheet
+* https://dzone.com/articles/azure-aws-and-gcp-a-multicloud-service-cheat-sheet
+* https://www.liquid-technologies.com/online-json-to-schema-converter
